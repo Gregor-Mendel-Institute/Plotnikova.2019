@@ -13,13 +13,14 @@ sRNA-seq Alignments
       1. Cutadapt (cutadapt/1.18-foss-2018b-Python-2.7.15)
       2. STAR (rna-star/2.5.2a-foss-2016a)
       3. readmapIO.py (included, from Schon et al. (2018) Genome Research)
+      4. fasta_utils.py (included, from Schon et al. (2018) Genome Research)
       4. BEDtools (BEDTools/2.27.1-GCCcore-6.4.0)
       5. bed_collapse.py (included, this study)
   And the following files: 
       1. FASTQ file of sRNA-seq reads (test.fastq included for testing)
-      2. FASTA file of reference genome (Col-0 TAIR10 included; Col_0.fa) 
+      2. FASTA file of reference genome (not included but can be downloaded from ftp://ftp.ensemblgenomes.org/pub/plants/release-       44/fasta/arabidopsis_thaliana/dna/) 
       3. BEDfile of miRNA loci (miRNA_mature.bed included)
   Executing the series of progams in sRNA.align.git.sh should generate a test.quant.on.miRNA_mature.tsv file with miRNAs as rows and the     number of reads for across various sRNA-seq read sizes as columns. Values were normalized for either the number of non-unique alignments   (i.e. raw) or the number of non-unique alignments and reads per million genome-matching reads (i.e. norm). This procedure was performed   for the 33 sRNA-seq datasets: 4 dilution series, 24 wild-type embryos, 3 dcl1-5 globular embryos, 1 leaf and 1 floral buds      
  
- 
+Figure 1
 
