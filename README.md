@@ -22,5 +22,6 @@ sRNA-seq Alignments
       3. BEDfile of miRNA loci (miRNA_mature.bed included)
   Executing the series of progams in sRNA.align.git.sh should generate a test.quant.on.miRNA_mature.tsv file with miRNAs as rows and the     number of reads for across various sRNA-seq read sizes as columns. Values were normalized for either the number of non-unique alignments   (i.e. raw) or the number of non-unique alignments and reads per million genome-matching reads (i.e. norm). This procedure was performed   for the 33 sRNA-seq datasets: 4 dilution series, 24 wild-type embryos, 3 dcl1-5 globular embryos, 1 leaf and 1 floral buds      
  
-Figure 1
+Figure 1 and Supplemental Figure 1 (see Figure_1_S1.R)
+  
 
