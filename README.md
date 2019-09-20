@@ -21,4 +21,4 @@ sRNA-seq Alignments
       
 Executing the series of progams in sRNA.align.git.sh should generate a test.quant.on.miRNA_mature.tsv file with miRNAs as rows and the     number of reads for across various sRNA-seq read sizes as columns. Values are normalized for either the number of aligned reads (i.e. raw) and the number of aligned reads per million genome-matching reads (i.e. norm). 
 
-In Plotnikova et al., this procedure was performed for the 33 sRNA-seq datasets: 4 dilution series, 24 wild-type embryos, 3 dcl1-5 globular embryos, 1 leaf and 1 floral buds.
+In Plotnikova et al., this procedure was performed for the 33 sRNA-seq datasets: 4 dilution series, 24 wild-type embryos, 3 dcl1-5 globular embryos, 1 leaf and 1 floral bud samples.
